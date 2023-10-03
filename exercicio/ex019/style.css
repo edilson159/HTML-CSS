@@ -1,0 +1,36 @@
+@charset "UTF=8";
+/*Em HTML id= significa # em CSS ( So um por arquivo)
+Tudo que em HTML for class em CSS é = . (Mais de um por arquivo)
+*/
+
+body{
+    background-color: rgb(188, 238, 114);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {color: green;
+
+}
+
+h1#principal {
+    text-align: center;
+    background-color: black;
+}
+
+h2 { 
+    color: rgb(0, 14, 0);
+    background-color: rgb(180, 180, 81);
+}
+.basico {
+    color: rgb(0, 14, 0);
+}
+.medio {
+    color: rgb(95, 105, 0);
+}
+.avançado {
+    color: rgb(101, 0, 0);
+}
+
+.destaque {
+    background-color: rgb(180, 180, 81);
+}
