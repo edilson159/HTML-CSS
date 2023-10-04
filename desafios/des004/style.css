@@ -28,10 +28,9 @@ body{
 
 header {
     background-image: linear-gradient(to bottom, var(--cor02), var(--cor05) ) ;
-    padding:0px;
-    margin: -30px -40px 0px ;
+    margin: -30px -30px 0px ;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.300);
-    padding: 10px;
+    padding: 10px -10px 10px 10px ;
     
 }
 header > h1 {
