@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Croissant+One & family= Love+Ya+Like+A+Sister & display=swap');
+
+:root {
+    --cor0:#ebe5c5 ;
+    --cor01:#0A65FD;
+    --cor02:#5fb3e4;
+    --cor03:#16E3FA;
+    --cor04:#09E3BD;
+    --cor05:#0AFD8D;
+    --font-padrão: Arial,Verdana,Helvetica, sans-serif;
+    --font-destaque:  'Bebas Neue',sans-serif ;
+    --font-android:'idroid,otf', cursive ;
+}
+body {
+    background-color: var(--cor03);
+    font-family: var(--font-padrão);
+    margin: 30px;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor01));
+    margin: -30px -30px 0px ;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.300);
+    padding: 10px -10px 10px 10px ;
+}
+header h1 {
+    font-family: var(--font-destaque);
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    border: 0px;
+}
+header h2 {
+    font-family: var(--font-destaque);
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    border: 0px;
+}
+
+article {
+    background-color: white;
+    font-family: var(--font-destaque);
+    margin: 0px;
+}
+
+article h1 {
+    background-image: linear-gradient(to right,#0AFD8D,white);
+    margin: 0px;
+
+}
+aside ul {
+    columns: 2;
+    margin: 0px;
+}
+nav a {
+  color:  black;
+  text-decoration: none;
+  margin: 4px;
+  border: 5px var(--cor04);
+  padding: 5px ;
+  font-weight: bold;
+  
+}
+.A:hover {
+    background-color: var(--cor03);
+ }
+ .B:hover {
+   background-color: var(--cor03);
+ }
+ .C:hover {
+ background-color: var(--cor03);
+ }
+ .D:hover {
+ background-color: var(--cor03);
+ }
