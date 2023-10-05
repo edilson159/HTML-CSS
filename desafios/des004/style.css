@@ -47,13 +47,14 @@ header > h2 {
     border: 0px;
 } 
 main {
+    position: relative;
     background-color: white;
     min-height: 280px;
     max-width: 800px;
     margin: auto;
     padding: 11px;
     bottom: 10px;
-    text-indent: 30px;
+    text-indent: 20px;
     border-radius: 0px 0px 10px 10px;
 }
 main img {
@@ -68,11 +69,13 @@ main img.pequena {
 }
 
 div.video {
+    position: absolute;
     background-color: var(--cor05);
     margin: 0px -20px -30px;
     padding: 20px;
     position:relative;
     padding-bottom: 59%;
+   
     
 }
 div.video>iframe {
@@ -102,8 +105,9 @@ article> h1 {
     font-family: 'idroid.otf';
     font-style: normal;
     font-weight: normal ;
-    font-size: 1,8;
+    font-size: 1.0;
     margin: -11px;
+    border: 100px;
 }
 article > h2 {
     background-image: linear-gradient(to right ,#61c59188, #96a89f17 );
@@ -112,6 +116,7 @@ article > h2 {
     font-style: normal;
     font-weight: normal ;
     margin: -11px;
+    padding: 10px;
 }
 article  > p {
     text-align: justify;
@@ -180,4 +185,7 @@ div > a {
  }
  .D:hover {
  background-color: #e4f6ec46;
+ }
+ .e {
+    padding: 10px;
  }
