@@ -21,6 +21,7 @@ html,body {
 }
 
 header {
+    font-family: var(--font02);
     background-color: black;
     color: white;
     text-align: center;
