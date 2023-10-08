@@ -1,8 +1,55 @@
 @charset "UTF-8"; 
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
 @import url('https://fonts.googleapis.com/css2? family= Love+Ya+Like+A+Sister & display=swap');
 
 :root {
     --font01: verdana, Geneva, Sans-serif;
     --font02:'Love Ya Like A Sister', cursive;
+    --font03:'Passion One', cursive ;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: linear-gradient(#ff2d2dd0,#AC0000) ;
+    text-align: center;
+    font-family: var(--font03) ;
+    font-weight: lighter;
+    font-size: 30px;
+}
+section {
+    font-family: var(--font03);
+    padding-left: 30px;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh ;
+    font-size: 4vw;
+}
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(49, 49, 49, 0.13);
+    padding: 20px;
+   ;
+}
+section.imagem {
+    
+    background-color: rgb(145, 138, 138);
+     background-size: cover;
+    background-attachment: fixed
+}
+section#img01 {
+    background-image: url('../imagens/WhatsApp\ Image\ 2023-10-08\ at\ 11.59.25_65c6552a.jpg');
+    background-position: center right;
+}
+section#img02 {
+    background-image: url('../imagens/WhatsApp\ Image\ 2023-10-08\ at\ 11.59.25_a8f42aed.jpg');
+    background-position: center right;
+}
+
+section#img03 {
+    background-image: url('../imagens/WhatsApp\ Image\ 2023-10-08\ at\ 11.59.25_fa54b9b1.jpg');
+    background-position: center right;
 }
