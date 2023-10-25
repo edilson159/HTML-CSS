@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+:root {
+    --cor001:#377574;
+    --cor002:#5D3183;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   background-image: linear-gradient(to bottom, var(--cor001), var(--cor002));
+}
