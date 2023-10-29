@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root {
-    --cor001:#377574;
-    --cor002:#5D3183;
+    --cor001:#49a09d;
+    --cor002:#5f2c82;
 }
 
 * {
@@ -10,5 +10,11 @@
 }
 
 body {
-   background-image: linear-gradient(to bottom, var(--cor001), var(--cor002));
+   background-color: var(--cor002);
+   
 }
+
+h1 {
+    text-align: center;
+}
+
