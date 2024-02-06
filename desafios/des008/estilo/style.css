@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+:root {
+    --cor001:#49a09d;
+    --cor002:#5f2c82;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   background-color: var(--cor002);
+   
+}
+
+h1 {
+    text-align: center;
+}
+
